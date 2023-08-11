@@ -1,26 +1,29 @@
+img {
+    max-inline-size: 100%;
+    block-size: auto;
+    display: block;
+    object-fit: contain;
+  }
+
+  body{
+    min-width: 26.875rem;
+  }
+
+
 .font{
     font-family: 'Space Mono', monospace;
     font-weight: bold;
     padding-top: 2.5rem;
     padding-left: 4.8125rem;
+    font-size:1.5rem;
 }
 
-.hat{
-    width:33.6875rem; 
-    height:25.875rem;
-    padding-top: 16.5625rem;
-    padding-left: 4.8125rem;
-    padding-right:7.4863rem;
-}
 
-.text{
-    display: flex;
-    justify-content: flex-start;
 
-}
+
 
 .news{
-    padding-top: 16.5625rem;
+    display:grid;
     padding-right: 7.4375rem;
     font-family: 'Space Mono', monospace;
     font-size: 3.75rem;
@@ -29,11 +32,6 @@
     height: 11.875rem;
 }
 
-.direction{
-    flex-direction: column;
-    height:6.75rem;
-    width: 23.8125rem;
-}
 
 .found{
     font-family: 'Space Mono', monospace;
@@ -52,25 +50,45 @@
 
 
 .subtitle{
-    font-size: 1.25rem;
+    display:grid;
+    font-size: 1.5rem;
     font-family: 'Space Mono', monospace;
-    padding-top: 2.25rem;
-    padding-bottom:4rem;
+    width:23.8125rem;
+    height: 6.75rem;
+
 
 }
 
 .footer {
     position: static;
     bottom: 0;
-    width: 100%;
     text-align: center;
     color:#BDBDBD;
    font-family: 'Montserrat', monospace;
   }
 
   .container{
-    padding-bottom:21.8125rem;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
   }
+
+ .section {
+    margin-top:2rem;
+ }
+
+ .container2{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+ .column{
+    flex-basis: 50%;
+ }
+
 
  @media screen and (max-width:1440px) {
     .news{
@@ -105,3 +123,7 @@
     
  }
  
+
+ 
+
+
