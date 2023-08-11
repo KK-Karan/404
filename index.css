@@ -71,3 +71,37 @@
   .container{
     padding-bottom:21.8125rem;
   }
+
+ @media screen and (max-width:1440px) {
+    .news{
+        font-size:3rem;
+    }
+    .subtitle{
+        font-size:1.25rem;
+    }
+
+    
+ 
+ }
+
+ @media (max-width:1283px) {
+    .news{
+        font-size:3rem;
+    }
+    .subtitle{
+        font-size:1.25rem;
+    }
+
+    .hat{
+        flex-direction:column;
+    }
+
+ }
+
+ @media(max-width:768px){
+    .column{
+      flex-basis: 100%;
+    }
+    
+ }
+ 
